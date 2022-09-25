@@ -1,0 +1,31 @@
+.AlbumRotation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 200px;
+}
+
+.AlbumRotation__search-field,
+.AlbumRotation__list-container,
+.AlbumRotation__album-list-item {
+  border: 2px solid gray;
+  border-radius: 6px;
+}
+
+.AlbumRotation__list-container {
+  background-color: gainsboro;
+}
+
+.AlbumRotation__album-list-item {
+  background-color: white;
+  color: dimgray;
+}
+
+.AlbumRotation__album-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  list-style: none;
+  margin: 0.3rem 0.5rem;
+  padding: 0;
+}
